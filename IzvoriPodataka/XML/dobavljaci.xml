@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+<dobavljaci>
+<Adresa>9-8 Sekimai Musashino-shi</Adresa>
+<Grad>Tokyo</Grad>
+<Naziv>Nitsuchiba</Naziv>
+<Kontakt>James Sushi</Kontakt>
+<Zemlja>Japan</Zemlja>
+<Faks>(03) 3555-5002</Faks>
+<Telefon>(03) 3555-5000</Telefon>
+<PostanskiBroj>100</PostanskiBroj>
+<DobavljacID>4</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>22, rue H. Voiron</Adresa>
+<Grad>Montceau</Grad>
+<Naziv>Gal Export</Naziv>
+<Kontakt>Mark Desailly</Kontakt>
+<Zemlja>France</Zemlja>
+<Faks>85.57.00.50</Faks>
+<Telefon>85.57.00.57</Telefon>
+<PostanskiBroj>71300</PostanskiBroj>
+<DobavljacID>27</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>29 King&apos;s Way</Adresa>
+<Grad>Manchester</Grad>
+<Naziv>Hot Pants</Naziv>
+<Kontakt>David Leg</Kontakt>
+<Zemlja>UK</Zemlja>
+<Faks>(161) 555-4911</Faks>
+<Telefon>(161) 555-4909</Telefon>
+<PostanskiBroj>M14 GSD</PostanskiBroj>
+<DobavljacID>8</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>49 Gilbert St.</Adresa>
+<Grad>London</Grad>
+<Naziv>Sunny Clothes</Naziv>
+<Kontakt>Peter Shulton</Kontakt>
+<Zemlja>UK</Zemlja>
+<Faks>(171) 555-2331</Faks>
+<Telefon>(171) 555-2333</Telefon>
+<PostanskiBroj>EC1 4SD</PostanskiBroj>
+<DobavljacID>1</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>74 Rose St. Moonie Ponds</Adresa>
+<Grad>Melbourne</Grad>
+<Naziv>New Balls</Naziv>
+<Kontakt>Pete Cash</Kontakt>
+<Zemlja>Australia</Zemlja>
+<Faks>(03) 444-6588</Faks>
+<Telefon>(03) 444-2398</Telefon>
+<PostanskiBroj>3058</PostanskiBroj>
+<DobavljacID>7</DobavljacID>
+<DobavljacGrupaID>3</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>92 Setsuko Chuo-ku</Adresa>
+<Grad>Osaka</Grad>
+<Naziv>SatSUMAs</Naziv>
+<Kontakt>Hirosho Tayota</Kontakt>
+<Zemlja>Japan</Zemlja>
+<Faks>(06) 431-5566</Faks>
+<Telefon>(06) 431-5555</Telefon>
+<PostanskiBroj>545</PostanskiBroj>
+<DobavljacID>6</DobavljacID>
+<DobavljacGrupaID>4</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>148 rue Chasseur</Adresa>
+<Grad>Ste-Hyacinthe</Grad>
+<Naziv>Fast Runners</Naziv>
+<Kontakt>Ben Johanson</Kontakt>
+<Zemlja>Canada</Zemlja>
+<Faks>(514) 555-2931</Faks>
+<Telefon>(514) 555-2929</Telefon>
+<PostanskiBroj>J2S 7S8</PostanskiBroj>
+<DobavljacID>29</DobavljacID>
+<DobavljacGrupaID>2</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>170 Prince Edward Parade Hunter&apos;s Hill</Adresa>
+<Grad>Sydney</Grad>
+<Naziv>Cangaroo Shoes</Naziv>
+<Kontakt>Chris Dundee</Kontakt>
+<Zemlja>Australia</Zemlja>
+<Faks>(02) 555-4875</Faks>
+<Telefon>(02) 555-5959</Telefon>
+<PostanskiBroj>2042</PostanskiBroj>
+<DobavljacID>24</DobavljacID>
+<DobavljacGrupaID>3</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>203, Rue des Francs-Bourgeois</Adresa>
+<Grad>Paris</Grad>
+<Naziv>Like Paradis</Naziv>
+<Kontakt>Naomi Paradis</Kontakt>
+<Zemlja>France</Zemlja>
+<Faks>(1) 03.83.00.88</Faks>
+<Telefon>(1) 03.83.00.69</Telefon>
+<PostanskiBroj>75004</PostanskiBroj>
+<DobavljacID>18</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>471 Serangoon Loop, Suite #402</Adresa>
+<Grad>Singapore</Grad>
+<Naziv>Asin Fashion Ltd Co</Naziv>
+<Kontakt>Li Chi Mi</Kontakt>
+<Zemlja>Singapore</Zemlja>
+<Faks>555-8790</Faks>
+<Telefon>555-8789</Telefon>
+<PostanskiBroj>512</PostanskiBroj>
+<DobavljacID>20</DobavljacID>
+<DobavljacGrupaID>4</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>707 Oxford Rd.</Adresa>
+<Grad>Ann Arbor</Grad>
+<Naziv>Dressed for Succes</Naziv>
+<Kontakt>Glenn Muller</Kontakt>
+<Zemlja>USA</Zemlja>
+<Faks>(313) 555-3349</Faks>
+<Telefon>(313) 555-5745</Telefon>
+<PostanskiBroj>48104</PostanskiBroj>
+<DobavljacID>3</DobavljacID>
+<DobavljacGrupaID>2</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>2960 Rue St. Laurent</Adresa>
+<Grad>Montréal</Grad>
+<Naziv>Mountain International</Naziv>
+<Kontakt>Clare Dion</Kontakt>
+<Zemlja>Canada</Zemlja>
+<Faks>(514) 555-9000</Faks>
+<Telefon>(514) 555-9090</Telefon>
+<PostanskiBroj>H1J 1C3</PostanskiBroj>
+<DobavljacID>25</DobavljacID>
+<DobavljacGrupaID>2</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>3400 - 8th Avenue Suite 210</Adresa>
+<Grad>Bend</Grad>
+<Naziv>Smooth Clothes</Naziv>
+<Kontakt>Pamela Anders</Kontakt>
+<Zemlja>USA</Zemlja>
+<Faks>(503) 555-93473</Faks>
+<Telefon>(503) 555-93472</Telefon>
+<PostanskiBroj>97101</PostanskiBroj>
+<DobavljacID>16</DobavljacID>
+<DobavljacGrupaID>2</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Av. das Americanas 12.890</Adresa>
+<Grad>Sao Paulo</Grad>
+<Naziv>Samba</Naziv>
+<Kontakt>Ronnie Ronaldinho</Kontakt>
+<Zemlja>Brazil</Zemlja>
+<Faks>(11) 555 2388</Faks>
+<Telefon>(11) 555 2364</Telefon>
+<PostanskiBroj>5442</PostanskiBroj>
+<DobavljacID>10</DobavljacID>
+<DobavljacGrupaID>2</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Bat. B 3, rue des Alpes</Adresa>
+<Grad>Annecy</Grad>
+<Naziv>FrisersAfrong</Naziv>
+<Kontakt>Yannik Munz</Kontakt>
+<Zemlja>France</Zemlja>
+<Faks>38.76.98.85</Faks>
+<Telefon>38.76.98.89</Telefon>
+<PostanskiBroj>74000</PostanskiBroj>
+<DobavljacID>28</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Bogenallee 51</Adresa>
+<Grad>Frankfurt</Grad>
+<Naziv>Austerlich</Naziv>
+<Kontakt>Fran Heinz</Kontakt>
+<Zemlja>Germany</Zemlja>
+<Faks>(069) 9945688</Faks>
+<Telefon>(069) 9945679</Telefon>
+<PostanskiBroj>60439</PostanskiBroj>
+<DobavljacID>12</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Brovallavägen 231</Adresa>
+<Grad>Stockholm</Grad>
+<Naziv>ABC</Naziv>
+<Kontakt>Anna Brooks</Kontakt>
+<Zemlja>Sweden</Zemlja>
+<Faks>08-123 33 75</Faks>
+<Telefon>08-123 33 65</Telefon>
+<PostanskiBroj>S-123 45</PostanskiBroj>
+<DobavljacID>17</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Calle del Rosal 4</Adresa>
+<Grad>Oviedo</Grad>
+<Naziv>Los Hombres Machos</Naziv>
+<Kontakt>Antonio Bandito</Kontakt>
+<Zemlja>Spain</Zemlja>
+<Faks>(98) 598 77 55</Faks>
+<Telefon>(98) 598 67 54</Telefon>
+<PostanskiBroj>33007</PostanskiBroj>
+<DobavljacID>5</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Frahmredder 112a</Adresa>
+<Grad>Cuxhaven</Grad>
+<Naziv>Executive Clothing GMBH</Naziv>
+<Kontakt>Mark Daniels</Kontakt>
+<Zemlja>Germany</Zemlja>
+<Faks>(04721) 8756</Faks>
+<Telefon>(04721) 2356</Telefon>
+<PostanskiBroj>27478</PostanskiBroj>
+<DobavljacID>13</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Hatlevegen 5</Adresa>
+<Grad>Sandvika</Grad>
+<Naziv>Bar Åkeri</Naziv>
+<Kontakt>Atle Skaga</Kontakt>
+<Zemlja>Norway</Zemlja>
+<Faks>(0)2-987650</Faks>
+<Telefon>(0)2-987653</Telefon>
+<PostanskiBroj>1320</PostanskiBroj>
+<DobavljacID>15</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Kaloadagatan 13</Adresa>
+<Grad>Göteborg</Grad>
+<Naziv>Goa Kläder</Naziv>
+<Kontakt>Tomas Ravioli</Kontakt>
+<Zemlja>Sweden</Zemlja>
+<Faks>031-987 65 91</Faks>
+<Telefon>031-987 34 65</Telefon>
+<PostanskiBroj>S-345 67</PostanskiBroj>
+<DobavljacID>9</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Lyngbysild Fiskebakken 10</Adresa>
+<Grad>Lyngby</Grad>
+<Naziv>Prael Ltd</Naziv>
+<Kontakt>Paul Els</Kontakt>
+<Zemlja>Denmark</Zemlja>
+<Faks>43844190</Faks>
+<Telefon>43844109</Telefon>
+<PostanskiBroj>2800</PostanskiBroj>
+<DobavljacID>21</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Order Processing Dept. 2100 Paul Revere Blvd.</Adresa>
+<Grad>Boston</Grad>
+<Naziv>Mayflower</Naziv>
+<Kontakt>Ray Burke</Kontakt>
+<Zemlja>USA</Zemlja>
+<Faks>(617) 555-3398</Faks>
+<Telefon>(617) 555-3337</Telefon>
+<PostanskiBroj>2134</PostanskiBroj>
+<DobavljacID>19</DobavljacID>
+<DobavljacGrupaID>2</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>P.O. Box 78934</Adresa>
+<Grad>New Orleans</Grad>
+<Naziv>Big L</Naziv>
+<Kontakt>John Brown</Kontakt>
+<Zemlja>USA</Zemlja>
+<Faks>(100) 555-4944</Faks>
+<Telefon>(100) 555-4844</Telefon>
+<PostanskiBroj>70117</PostanskiBroj>
+<DobavljacID>2</DobavljacID>
+<DobavljacGrupaID>2</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Tiergartenstraße 5</Adresa>
+<Grad>Berlin</Grad>
+<Naziv>Der Bahnhof</Naziv>
+<Kontakt>Karl Strauss</Kontakt>
+<Zemlja>Germany</Zemlja>
+<Faks>(010) 9787655</Faks>
+<Telefon>(010) 9787664</Telefon>
+<PostanskiBroj>10785</PostanskiBroj>
+<DobavljacID>11</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Valtakatu 12</Adresa>
+<Grad>Lappeenranta</Grad>
+<Naziv>Nordik Koskenkorva</Naziv>
+<Kontakt>Juha Mann</Kontakt>
+<Zemlja>Finland</Zemlja>
+<Faks>(953) 11111</Faks>
+<Telefon>(953) 10999</Telefon>
+<PostanskiBroj>53120</PostanskiBroj>
+<DobavljacID>23</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Verkoop Rijnweg 22</Adresa>
+<Grad>Zaandam</Grad>
+<Naziv>Niemegen Boots</Naziv>
+<Kontakt>George van Persie</Kontakt>
+<Zemlja>Netherlands</Zemlja>
+<Faks>(12345) 1211</Faks>
+<Telefon>(12345) 1213</Telefon>
+<PostanskiBroj>9999 ZZ</PostanskiBroj>
+<DobavljacID>22</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Via dei Gelsomini, 153</Adresa>
+<Grad>Salerno</Grad>
+<Naziv>Pirilli Company</Naziv>
+<Kontakt>Albert Tombs</Kontakt>
+<Zemlja>Italy</Zemlja>
+<Faks>(089) 6547777</Faks>
+<Telefon>(089) 6547666</Telefon>
+<PostanskiBroj>84100</PostanskiBroj>
+<DobavljacID>26</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljaci>
+<Adresa>Viale Dante, 75</Adresa>
+<Grad>Ravenna</Grad>
+<Naziv>Ravenna Fashion</Naziv>
+<Kontakt>Paul Rossi</Kontakt>
+<Zemlja>Italy</Zemlja>
+<Faks>(0544) 60611</Faks>
+<Telefon>(0544) 6111</Telefon>
+<PostanskiBroj>48100</PostanskiBroj>
+<DobavljacID>14</DobavljacID>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+</dobavljaci>
+<dobavljac_grupa>
+<DobavljacGrupaID>1</DobavljacGrupaID>
+<NazivGrupe>Band A</NazivGrupe>
+</dobavljac_grupa>
+<dobavljac_grupa>
+<DobavljacGrupaID>2</DobavljacGrupaID>
+<NazivGrupe>Band B</NazivGrupe>
+</dobavljac_grupa>
+<dobavljac_grupa>
+<DobavljacGrupaID>3</DobavljacGrupaID>
+<NazivGrupe>Band C</NazivGrupe>
+</dobavljac_grupa>
+<dobavljac_grupa>
+<DobavljacGrupaID>4</DobavljacGrupaID>
+<NazivGrupe>Band D</NazivGrupe>
+</dobavljac_grupa>
+</root>

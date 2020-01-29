@@ -1,0 +1,27 @@
+Za proizvode broj isporuka i prosečan iznos po isporuci na mesečnom nivou:
+
+SELECT [Datum].Members ON 0,
+[Proizvod].[ProizvodID].Members ON 1,
+{[Measures].[BrIsporuka],[Measures].[AvgIznos]} ON 2
+FROM UpitA
+///////////////////////////////////////////////////////////////////
+Za kategorije broj isporuka i prosečan iznos po isporuci na mesečnom nivou:
+
+SELECT [Datum].Members ON 0,
+[Kategorija].[KategorijaID].Members ON 1,
+{[Measures].[BrIsporuka],[Measures].[AvgIznos]} ON 2
+FROM UpitA
+//////////////////////////////////////////////////////////////////////
+Za zaposlene broj isporuka i iznos računa po kvartalima:
+
+SELECT [Kvartal].Members ON 0,
+[Zaposleni].[ZaposleniID].Members ON 1,
+{[Measures].[BrIsporuka],[Measures].[IznosRacuna]} ON 2
+FROM UpitB
+//////////////////////////////////////////////////////////////////////
+Tezina po kancelarijama po divizijama:
+
+SELECT [Kancelarija].[KancelarijaID].Members ON 0,
+[Divizija].[DivizijaID].Members ON 1,
+[Measures].[SumaTezina] ON 2
+FROM UpitB

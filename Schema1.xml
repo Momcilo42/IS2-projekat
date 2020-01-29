@@ -1,0 +1,142 @@
+<Schema name="IS2_2020">
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Proizvodi">
+    <Hierarchy name="Proizvodi" visible="true" hasAll="true" primaryKey="ProizvodID">
+      <Table name="Proizvodi">
+      </Table>
+      <Level name="ProizvodID" visible="true" table="Proizvodi" column="ProizvodID" nameColumn="ProizvodID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="KategorijaID" visible="true" table="Proizvodi" column="KategorijaID" nameColumn="KategorijaID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="NazivProizvoda" visible="true" table="Proizvodi" column="NazivProizvoda" nameColumn="NazivProizvoda" type="String" internalType="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="KolicinaPoPakovanju" visible="true" table="Proizvodi" column="KolicinaPoPakovanju" nameColumn="KolicinaPoPakovanju" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="DobavljacID" visible="true" table="Proizvodi" column="DobavljacID" nameColumn="DobavljacID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="NabavnaCenaJedinicna" visible="true" table="Proizvodi" column="NabavnaCenaJedinicna" nameColumn="NabavnaCenaJedinicna" type="Numeric" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="BrPakovanjaNaStanju" visible="true" table="Proizvodi" column="BrPakovanjaNaStanju" nameColumn="BrPakovanjaNaStanju" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="BrPorucenihPakovanja" visible="true" table="Proizvodi" column="BrPorucenihPakovanja" nameColumn="BrPorucenihPakovanja" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="ProdajnaCenaPakovanja" visible="true" table="Proizvodi" column="ProdajnaCenaPakovanja" nameColumn="ProdajnaCenaPakovanja" type="Numeric" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="ProdajnaCenaJedinicna" visible="true" table="Proizvodi" column="ProdajnaCenaJedinicna" nameColumn="ProdajnaCenaJedinicna" type="Numeric" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="NabavnaCenaPakovanja" visible="true" table="Proizvodi" column="NabavnaCenaPakovanja" nameColumn="NabavnaCenaPakovanja" type="Numeric" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Isporuke">
+    <Hierarchy name="Isporuka" visible="true" hasAll="true" primaryKey="IsporukaID">
+      <Table name="Isporuke">
+      </Table>
+      <Level name="DatumIsporuke" visible="true" table="Isporuke" column="DatumIsporuke" nameColumn="DatumIsporuke" type="Timestamp" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="IsporukeID" visible="true" table="Isporuke" column="IsporukaID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="StavkaBr" visible="true" table="Isporuke" column="StavkaBr" nameColumn="StavkaBr" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="KupacID" visible="true" table="Isporuke" column="KupacID" nameColumn="KupacID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="ZaposleniID" visible="true" table="Isporuke" column="ZaposleniID" nameColumn="ZaposleniID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="PrevoznikID" visible="true" table="Isporuke" column="PrevoznikID" nameColumn="PrevoznikID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="ProizvodID" visible="true" table="Isporuke" column="ProizvodID" nameColumn="ProizvodID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Kategorije">
+    <Hierarchy name="Kategorije" visible="true" hasAll="true" primaryKey="KategorijaID">
+      <Table name="Kategorije">
+      </Table>
+      <Level name="KategorijaID" visible="true" table="Kategorije" column="KategorijaID" nameColumn="KategorijaID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="NazivKategorije" visible="true" table="Kategorije" column="NazivKategorije" nameColumn="NazivKategorije" type="String" internalType="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Opis" visible="true" table="Kategorije" column="Opis" nameColumn="Opis" type="String" internalType="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Zaposleni">
+    <Hierarchy name="Zaposleni" visible="true" hasAll="true" primaryKey="ZaposleniID">
+      <Table name="Zaposleni">
+      </Table>
+      <Level name="ZaposleniID" visible="true" table="Zaposleni" column="ZaposleniID" nameColumn="ZaposleniID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="KancelarijaID" visible="true" table="Zaposleni" column="ZaposleniID" nameColumn="ZaposleniID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="DatumKraja" visible="true" table="Zaposleni" column="DatumKraja" nameColumn="DatumKraja" type="Timestamp" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Kancelarije">
+    <Hierarchy name="Kancelarije" visible="true" hasAll="true" primaryKey="KancelarijaID">
+      <Table name="Kancelarije">
+      </Table>
+      <Level name="KancelarijaID" visible="true" table="Kancelarije" column="KancelarijaID" nameColumn="KancelarijaID" type="Integer" internalType="int" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Datum">
+    <Hierarchy name="New Hierarchy 0" visible="true" hasAll="true" primaryKey="IsporukaID">
+      <Table name="UpitA">
+      </Table>
+      <Level name="Datum" visible="true" table="UpitA" column="Datum" nameColumn="Datum" type="String" internalType="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Kvartal">
+    <Hierarchy name="New Hierarchy 0" visible="true" hasAll="true" primaryKey="IsporukaID">
+      <Table name="UpitB">
+      </Table>
+      <Level name="Kvartal" visible="true" table="UpitB" column="Kvartal" nameColumn="Kvartal" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" name="Divizija">
+    <Hierarchy name="New Hierarchy 0" visible="true" hasAll="true" primaryKey="DivID">
+      <Table name="Divizije" alias="">
+      </Table>
+      <Level name="DivizijaID" visible="true" table="Divizije" column="DivID" nameColumn="DivID" type="Integer" internalType="int" uniqueMembers="false">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Cube name="UpitA" visible="true" cache="true" enabled="true">
+    <Table name="UpitA">
+    </Table>
+    <DimensionUsage source="Proizvodi" name="Proizvod" visible="true" foreignKey="ProizvodID" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Isporuke" name="Isporuka" visible="true" foreignKey="IsporukaID" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Kategorije" name="Kategorija" visible="true" foreignKey="KategorijaID" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Datum" name="Datum" visible="true" foreignKey="Datum" highCardinality="false">
+    </DimensionUsage>
+    <Measure name="BrIsporuka" column="IsporukaID" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="AvgIznos" column="UkupnaCena" aggregator="avg" visible="true">
+    </Measure>
+  </Cube>
+  <Cube name="UpitB" visible="true" cache="true" enabled="true">
+    <Table name="UpitB">
+    </Table>
+    <DimensionUsage source="Zaposleni" name="Zaposleni" visible="true" foreignKey="ZaposleniID" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Isporuke" name="Isporuka" visible="true" foreignKey="IsporukaID" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Kancelarije" name="Kancelarija" visible="true" foreignKey="KancelarijaID" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Kvartal" name="Kvartal" visible="true" foreignKey="Kvartal" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="Divizija" name="Divizija" visible="true" foreignKey="DivizijaID">
+    </DimensionUsage>
+    <Measure name="BrIsporuka" column="IsporukaID" aggregator="count" visible="true">
+    </Measure>
+    <Measure name="IznosRacuna" column="IznosRacuna" aggregator="sum" visible="true">
+    </Measure>
+    <Measure name="SumaTezina" column="Tezina" aggregator="sum" visible="true">
+    </Measure>
+  </Cube>
+</Schema>
